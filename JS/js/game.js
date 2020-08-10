@@ -43,11 +43,11 @@ function createMouse() {
 
     let mouseCoordinates = generateMouse();
     mouse = document.querySelector('[posX = "' + mouseCoordinates[0] + '"][posY = "' + mouseCoordinates[1] + '"]');
-    mouse.classList.add('mouse');
     while(mouse.classList.contains('snakeBody')) {
         let mouseCoordinates = generateMouse();
         mouse = document.querySelector('[posX = "' + mouseCoordinates[0] + '"][posY = "' + mouseCoordinates[1] + '"]');
     }
+    mouse.classList.add('mouse');
 }
 
 createMouse();

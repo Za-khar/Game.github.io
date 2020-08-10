@@ -3,6 +3,8 @@
 }
 
 body {
+    background-image: url(../img/anime.jpg);
+    background-repeat: repeat;
     margin: 20px;
 }
 
@@ -14,7 +16,7 @@ body {
     margin-left: 500px;
     margin-top: 70px;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: pink;
 }
 
 .exel {
@@ -24,7 +26,7 @@ body {
 }
 
 .snakeBody{
-    background-color:red;
+    background-image: url('../img/kaka.png');
     background-size: cover;
     border-radius: 50%;
 }
@@ -32,7 +34,7 @@ body {
 .head {
     background-image: url('../img/Sergo.png');
     background-size: cover;
-    border-radius: 10%;
+    border-radius: 40%;
 }
 
 .mouse {
